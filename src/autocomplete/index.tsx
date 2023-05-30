@@ -15,6 +15,10 @@ const Autocomplete = ({options}: AutocompleteProps) => {
   const [matchingOptions, setMatchingOptions] = useState<string[]>([])
   const [showOptions, setShowOptions] = useState(false);
 
+  /**
+   * For production this component should also enable users to use arrow keys to navigate through options 
+   */
+
   const handleOptionChange = async (inputValue: string) => {
     setOption(inputValue);
     
