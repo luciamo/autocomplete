@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.autocomplete-input {
+  width: 200px;
+  border: 3px solid black;
+  font-size: 18px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.autocomplete-list {
+  list-style: none;
+  width: 200px;
+  margin: 8px auto;
+  border: 3px solid;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.autocomplete-list li {
+  border: 1.5px solid;
+  text-align: left;
+}
+.autocomplete-list li:hover {
+  cursor: pointer;
+  background-color: darkgray;
+}
